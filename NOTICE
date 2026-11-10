@@ -1,0 +1,9 @@
+The flattened X-HEEP RTL in
+physical_design/nangate45/xheep/openroad/xheep_flat.v is based on the
+upstream X-HEEP project (https://github.com/x-heep/x-heep). The upstream
+Solderpad Hardware License is included in LICENSE-XHEEP. Third-party IP
+components may have separate licensing terms.
+
+The Nangate45 platform libraries are not included in this repository. The
+final layout uses the platform's fakeram macro as an empty placeholder; see
+README.md for the physical-design limitations.

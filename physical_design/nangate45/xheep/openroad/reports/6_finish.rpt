@@ -1,0 +1,305 @@
+
+==========================================================================
+finish report_tns
+--------------------------------------------------------------------------
+tns max 0.00
+
+==========================================================================
+finish report_wns
+--------------------------------------------------------------------------
+wns max 0.00
+
+==========================================================================
+finish report_worst_slack
+--------------------------------------------------------------------------
+worst slack max INF
+
+==========================================================================
+finish report_clock_min_period
+--------------------------------------------------------------------------
+clk period_min = 0.00 fmax = inf
+
+==========================================================================
+finish report_clock_skew
+--------------------------------------------------------------------------
+Clock clk
+No launch/capture paths found.
+
+
+==========================================================================
+finish report_checks -path_delay min
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+finish report_checks -path_delay max
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+finish report_checks -unconstrained
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+finish report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/_22382_/ZN    0.20    9.23   -9.03 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/_23565_/ZN    0.20    6.14   -5.95 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/_23636_/Z    0.20    0.98   -0.78 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_29103_/ZN    0.20    0.92   -0.72 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_26570_/ZN    0.20    0.89   -0.70 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45735_/ZN    0.20    0.77   -0.57 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_28228_/ZN    0.20    0.77   -0.57 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_30708_/ZN    0.20    0.77   -0.57 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_27916_/ZN    0.20    0.73   -0.53 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_29786_/ZN    0.20    0.72   -0.52 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_27603_/ZN    0.20    0.72   -0.52 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_30402_/ZN    0.20    0.72   -0.52 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_28531_/ZN    0.20    0.72   -0.52 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_30093_/ZN    0.20    0.71   -0.51 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_44944_/ZN    0.20    0.71   -0.51 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_29482_/ZN    0.20    0.68   -0.49 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_25959_/ZN    0.20    0.68   -0.48 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_27296_/ZN    0.20    0.68   -0.48 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_26986_/ZN    0.20    0.66   -0.46 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_26284_/ZN    0.20    0.65   -0.46 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_29101_/ZN    0.20    0.65   -0.46 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_31011_/ZN    0.20    0.63   -0.43 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_28838_/ZN    0.20    0.62   -0.42 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_31317_/ZN    0.20    0.61   -0.41 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_26567_/ZN    0.20    0.61   -0.41 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_26590_/ZN    0.20    0.58   -0.39 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_44566_/ZN    0.20    0.58   -0.38 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_37543_/ZN    0.20    0.55   -0.35 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_46118_/S    0.20    0.45   -0.26 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45285_/ZN    0.20    0.44   -0.24 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45231_/ZN    0.20    0.42   -0.23 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/_22226_/ZN    0.20    0.42   -0.22 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45329_/ZN    0.20    0.41   -0.22 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45244_/ZN    0.20    0.41   -0.21 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45338_/ZN    0.20    0.41   -0.21 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45227_/ZN    0.20    0.41   -0.21 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45255_/ZN    0.20    0.41   -0.21 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45250_/ZN    0.20    0.41   -0.21 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_29080_/ZN    0.20    0.41   -0.21 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45318_/ZN    0.20    0.40   -0.21 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45321_/ZN    0.20    0.40   -0.20 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45334_/ZN    0.20    0.40   -0.20 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_40001_/ZN    0.20    0.40   -0.20 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45235_/ZN    0.20    0.40   -0.20 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_37476_/ZN    0.20    0.39   -0.20 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_34824_/ZN    0.20    0.39   -0.19 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45351_/ZN    0.20    0.39   -0.19 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45361_/ZN    0.20    0.39   -0.19 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45314_/ZN    0.20    0.39   -0.19 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_34687_/ZN    0.20    0.39   -0.19 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_34547_/ZN    0.20    0.39   -0.19 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_34364_/ZN    0.20    0.39   -0.19 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_38257_/ZN    0.20    0.38   -0.18 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45274_/ZN    0.20    0.38   -0.18 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45266_/ZN    0.20    0.38   -0.18 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45374_/ZN    0.20    0.38   -0.18 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_37507_/ZN    0.20    0.37   -0.17 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_34820_/ZN    0.20    0.37   -0.17 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_34684_/ZN    0.20    0.37   -0.17 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_29102_/ZN    0.20    0.37   -0.17 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_46118_/CO    0.20    0.37   -0.17 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_34359_/ZN    0.20    0.37   -0.17 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_34550_/ZN    0.20    0.37   -0.17 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_30634_/ZN    0.20    0.34   -0.15 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_26569_/ZN    0.20    0.34   -0.14 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_46221_/S    0.20    0.33   -0.13 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45536_/ZN    0.20    0.32   -0.13 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_27529_/ZN    0.20    0.32   -0.12 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_28154_/ZN    0.20    0.32   -0.12 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_29408_/ZN    0.20    0.30   -0.10 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_38307_/ZN    0.20    0.30   -0.10 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_28764_/ZN    0.20    0.30   -0.10 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_30019_/ZN    0.20    0.29   -0.10 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_26206_/ZN    0.20    0.29   -0.09 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_29081_/ZN    0.20    0.28   -0.09 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_26912_/ZN    0.20    0.28   -0.08 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_26591_/ZN    0.20    0.27   -0.08 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45592_/ZN    0.20    0.26   -0.07 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_31549_/ZN    0.20    0.26   -0.06 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_31243_/ZN    0.20    0.26   -0.06 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45588_/ZN    0.20    0.25   -0.06 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45573_/ZN    0.20    0.25   -0.05 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_38616_/ZN    0.20    0.25   -0.05 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45597_/ZN    0.20    0.25   -0.05 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_38279_/ZN    0.20    0.24   -0.04 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45578_/ZN    0.20    0.24   -0.04 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_38318_/ZN    0.20    0.24   -0.04 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45700_/ZN    0.20    0.23   -0.03 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45709_/ZN    0.20    0.23   -0.03 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45609_/ZN    0.20    0.22   -0.03 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45667_/ZN    0.20    0.22   -0.02 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45680_/ZN    0.20    0.22   -0.02 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45721_/ZN    0.20    0.22   -0.02 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_39280_/ZN    0.20    0.22   -0.02 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_44487_/ZN    0.20    0.21   -0.02 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45620_/ZN    0.20    0.21   -0.01 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_39263_/ZN    0.20    0.21   -0.01 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_29082_/ZN    0.20    0.21   -0.01 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45041_/ZN    0.20    0.21   -0.01 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45567_/ZN    0.20    0.21   -0.01 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_30631_/ZN    0.20    0.21   -0.01 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45684_/ZN    0.20    0.20   -0.01 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45491_/ZN    0.20    0.20   -0.00 (VIOLATED)
+u_x_heep.core_v_mini_mcu_i.ao_peripheral_subsystem_i.spi_subsystem_i.ot_spi_i/_45688_/ZN    0.20    0.20   -0.00 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/spi2_host/wire8836/Z  242.31  340.81  -98.50 (VIOLATED)
+
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/spi2_host/wire8835/Z  242.31  334.51  -92.20 (VIOLATED)
+
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/spi_host_dma_i/load_slew8834/Z  242.31  321.25  -78.94 (VIOLATED)
+
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/spi2_host/wire8837/Z  242.31  314.89  -72.58 (VIOLATED)
+
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/spi_host_dma_i/wire8838/Z  242.31  310.52  -68.21 (VIOLATED)
+
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/spi2_host/load_slew8840/Z  242.31  281.14  -38.83 (VIOLATED)
+
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/spi2_host/load_slew8839/Z  242.31  276.39  -34.08 (VIOLATED)
+
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/spi_host_dma_i/_45500_/ZN   59.36   65.07   -5.72 (VIOLATED)
+
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/spi2_host/_26590_/ZN  106.81  109.58   -2.77 (VIOLATED)
+
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/spi2_host/_45318_/ZN   49.13   51.41   -2.28 (VIOLATED)
+
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/spi_host_dma_i/_44693_/ZN   25.33   26.97   -1.64 (VIOLATED)
+
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/spi_host_dma_i/_45064_/ZN   58.36   59.71   -1.34 (VIOLATED)
+
+u_x_heep.core_v_mini_mcu_i.peripheral_subsystem_i/spi2_host/_45709_/ZN   25.33   26.50   -1.17 (VIOLATED)
+
+
+==========================================================================
+finish max_slew_check_slack
+--------------------------------------------------------------------------
+-9.032866477966309
+
+==========================================================================
+finish max_slew_check_limit
+--------------------------------------------------------------------------
+0.1985349953174591
+
+==========================================================================
+finish max_slew_check_slack_limit
+--------------------------------------------------------------------------
+-45.4976
+
+==========================================================================
+finish max_fanout_check_slack
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_fanout_check_limit
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_capacitance_check_slack
+--------------------------------------------------------------------------
+-98.49724578857422
+
+==========================================================================
+finish max_capacitance_check_limit
+--------------------------------------------------------------------------
+242.30999755859375
+
+==========================================================================
+finish max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+-0.4065
+
+==========================================================================
+finish max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 104
+
+==========================================================================
+finish max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+finish max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 13
+
+==========================================================================
+finish setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 0
+
+==========================================================================
+finish hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
+
+==========================================================================
+finish report_checks -path_delay max reg to reg
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+finish report_checks -path_delay min reg to reg
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+finish critical path target clock latency max path
+--------------------------------------------------------------------------
+0
+
+==========================================================================
+finish critical path target clock latency min path
+--------------------------------------------------------------------------
+0
+
+==========================================================================
+finish critical path source clock latency min path
+--------------------------------------------------------------------------
+0
+
+==========================================================================
+finish critical path delay
+--------------------------------------------------------------------------
+-1
+
+==========================================================================
+finish critical path slack
+--------------------------------------------------------------------------
+0
+
+==========================================================================
+finish slack div critical path delay
+--------------------------------------------------------------------------
+0.000000
+
+==========================================================================
+finish report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.95e-02   3.16e-06   7.74e-04   2.03e-02  93.0%
+Combinational          8.26e-05   2.00e-04   1.24e-03   1.53e-03   7.0%
+Clock                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.96e-02   2.04e-04   2.02e-03   2.18e-02 100.0%
+                          89.8%       0.9%       9.2%
